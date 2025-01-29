@@ -8,8 +8,10 @@ const reset = document.querySelector(".icon");
 button.addEventListener("click", () => {
   const selectedDate = input.value;
 
+  button.style.backgroundColor = "rgb(22, 74, 229)";
+
   if (!selectedDate) {
-    para.innerHTML = "❗ Please select a valid date.";
+    para.innerHTML = "❗Please select a valid date.";
     para.style.color = "red";
     return;
   }
@@ -34,4 +36,5 @@ reset.addEventListener("click", () => {
   para.style.color = "#333";
   para.innerHTML = `Your age is ___ year old.`;
   input.value = "";
+  button.style.backgroundColor = "royalblue";
 });

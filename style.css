@@ -14,16 +14,18 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 278px;
-  width: 479px;
-  box-shadow: 1px 1px 14px #ddd;
-  padding: 24px;
+  height: 350px;
+  width: 500px;
+}
+
+h1,
+input {
+  margin-bottom: 24px;
 }
 
 h1 {
   font-size: 32px;
   color: royalblue;
-  margin-bottom: 24px;
 }
 
 p {
@@ -33,16 +35,13 @@ p {
 }
 
 input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 30px;
   width: 300px;
   border-radius: 4px;
   outline: none;
   border: 1px solid #555;
-  margin-bottom: 24px;
   cursor: pointer;
+  padding: 2px;
 }
 
 input:focus {
@@ -59,10 +58,6 @@ button {
   font-weight: 500;
   border: none;
   cursor: pointer;
-}
-
-button:active {
-  background-color: rgb(22, 74, 229);
 }
 
 .para {
