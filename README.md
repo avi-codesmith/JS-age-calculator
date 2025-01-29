@@ -1,4 +1,4 @@
 # About JS Age Calculator
 ## This is a Simple age calculator code in HTML CSS JS
 ## [Visit Now!](https://js-simple-age-calculator.netlify.app/)
-![gif-calculator-js](https://github.com/user-attachments/assets/5c6f521d-a834-4520-b296-1ef6454781a4)
+![gif-calculator-js gif](https://github.com/user-attachments/assets/d1a054ce-13f4-474a-b389-4c706bf66566)
